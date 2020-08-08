@@ -47,15 +47,15 @@ body{
     justify-content: center;
   }
   .circle {
-background-color: rgb(124, 66, 66);
-border-radius:50%;
-height:300px;
-width: 300px;
-margin-left: 35px;
-margin-bottom: 15px;
-margin-right: 35px;
-text-align: center;
-justify-content: center;
+    background-color: rgb(124, 66, 66);
+    border-radius:50%;
+    height:40vh;
+    width: 20vw;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    margin-right: 35px;
+    text-align: center;
+    justify-content: center;
   }
 
   .section-2 {
