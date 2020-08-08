@@ -2,3 +2,123 @@
     margin: 0;
     padding: 0;
 }
+body{
+    margin: 10px;
+}
+.container{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0.1%;
+}
+.header{
+    background-color: gray;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 15px 50px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    background-color: rgb(55, 202, 221);
+    height: 700px;
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.heading {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.section-1 {
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .circle {
+background-color: rgb(124, 66, 66);
+border-radius:50%;
+height:300px;
+width: 300px;
+margin-left: 35px;
+margin-bottom: 15px;
+margin-right: 35px;
+text-align: center;
+justify-content: center;
+  }
+
+  .section-2 {
+    display: flex;
+    flex-direction: row;
+    /* border:1px black solid; */
+    height: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+.left{
+    background-color: rgb(116, 113, 113);
+    color: white;
+    width: 50%;
+    height: 540px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin: 5px;
+}
+
+
+.right{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    height: 550px;
+}
+
+.artical{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(202, 126, 202);
+    color: white;
+    font-size: 40px;
+    height: 180px;
+}
+.box {
+    /* border:1px black solid; */
+    height: 425px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .rectBox {
+    background-color: brown;
+    width: 25%;
+    margin: 15px;
+  }
+
+  .footer{
+    background-color: rgb(31, 145, 126);
+    text-align: center;
+    padding: 15px 50px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+  }
