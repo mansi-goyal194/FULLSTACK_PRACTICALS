@@ -43,15 +43,15 @@ body{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 46vh;
+    height: 380px;
     align-items: center;
     justify-content: center;
   }
   .circle {
     background-color: rgb(124, 66, 66);
     border-radius:50%;
-    height:40vh;
-    width: 20vw;
+    height:320px;
+    width: 320px;   
     margin-left: 35px;
     margin-right: 35px;
     text-align: center;
@@ -101,7 +101,7 @@ body{
 }
 .box {
     /* border:1px black solid; */
-    height: 425px;
+    height: 400px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
