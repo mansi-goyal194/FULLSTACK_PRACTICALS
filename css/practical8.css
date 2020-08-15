@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  body{
+    margin: 10px;
+    align-content: center;
+    color: white;
+    font-family: sans-serif;
+}
+  
+  
+.container{
+  border: solid lightgray 15px;
+    display: block;
+    width: 1500px;
+    margin: 0px auto;
+    padding: 15px;
+}
+.header{
+    background-color: gray;
+    font-size: 40px;
+    margin-bottom: 10px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+}
+
+  .navbar li {
+    display: inline;
+    margin: 20px;
+  }
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    height: 100%;
+  }
+  
+  .navbar li a:hover {
+    color:rgb(0, 0, 0);
+    transition: 1.2s;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cornflowerblue;
+    background-color: rgb(55, 202, 221);
+    background-image: url(/images/practical8/bannerr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 80px;
+    color: rgb(134, 97, 55);
+    font-variant: small-caps;
+    border-bottom: 1px solid white;
+
+}
