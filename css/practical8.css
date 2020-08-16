@@ -131,17 +131,20 @@
     background-color: rgb(116, 113, 113);
     width: 50%;
     height: 560px;
-    text-align: center;
+    text-align: justify;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    font-size: 40px;
+    font-size: 30px;
     margin-right: 5px;
     margin-bottom: 5px;
     margin-top: 5px;
     border: 1px solid black;
 }
-
+.left h3{
+  font-size: 50px;
+}
 
 .right{
     display:flex;
