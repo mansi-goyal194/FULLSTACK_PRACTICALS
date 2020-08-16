@@ -9,7 +9,7 @@
     margin: 10px;
     align-content: center;
     color: white;
-    font-family: sans-serif;
+    font-family: serif;
 }
   
   
@@ -17,9 +17,10 @@
   border: solid lightgray 15px;
     display: block;
     width: 1440px;
-    height: 3050px;
+    height: 2700px;
     margin: 0px auto;
     padding: 15px;
+    background-color: rgb(214, 212, 212);
 }
 .header{
     background-color: gray;
@@ -71,10 +72,11 @@
 
 .heading {
     text-align: center;
+    font-size: 30px;
     margin-bottom: 10px;
     margin-top: 10px;
     color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: serif;
 }
 .section-1 {
     display: flex;
@@ -93,12 +95,14 @@
     color: rgb(150, 45, 219);
   }
   
-  .circle img {
-    background-color: rgb(253, 239, 174);
-    height: 60%;
-    width: 70%;
-    border-radius: 50%;
-    margin-left: 50px;
+  .circle img { 
+      border-radius:50%;
+      height:320px;
+      width: 320px;   
+      margin-left: 20px;
+      margin-right: 20px;
+      text-align: center;
+      justify-content: center;
   }
   .section-2 {
     display: flex;
@@ -118,7 +122,9 @@
     align-items: center;
     justify-content: center;
     font-size: 40px;
-    margin: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     border: 1px solid black;
 }
 
@@ -129,9 +135,11 @@
     width: 50%;
     height: 550px;
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .artical{
+    margin-top: auto;
     margin: 5px;
     display: flex;
     align-items: center;
@@ -175,7 +183,7 @@
     border: 1px solid gray;
   }
   .box:hover {
-    background-color: rgb(170, 26, 26);
+    background-color: rgb(114, 163, 91);
     color: black;
     transition: 0.8s;
   }
@@ -243,13 +251,17 @@
     padding: 5px 50px;
   } */
 #Contact h1{
+  background-color: rgb(235, 144, 144);
+  font-size: 40px;
   color: aqua;
-  height: 50px;
+  /* height: 20px; */
   margin: 30px;
   padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+.sec4{
+  height: 200px;
+}
   
