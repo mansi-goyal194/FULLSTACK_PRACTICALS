@@ -29,6 +29,8 @@
     align-items: center;
     justify-content: center;
     padding: 10px 50px;
+    position: sticky;
+    top: 0;
 }
 
   .navbar li {
@@ -59,8 +61,8 @@
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 80px;
-    color: rgb(199, 190, 180);
-    font-variant: small-caps;
+    color: rgb(103, 163, 108);
+    font-family: cursive ;
     border-bottom: 1px solid white;
     padding-left: 30px;
     padding-top: 30px;
