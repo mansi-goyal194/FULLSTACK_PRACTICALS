@@ -133,8 +133,8 @@
     height: 560px;
     text-align: center;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
     font-size: 40px;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -288,11 +288,12 @@
   font-size: 20px;
   font-family: serif;
   padding-bottom: 10px;
+  font-style: inherit;
 }
 .footer a{
   text-decoration: none;
   font-family: monospace;
-  color: brown;
+  color: rgb(165, 42, 155);
 }
 
 .footer ul{
@@ -303,4 +304,5 @@
 }
 .footer li a:hover{
   color: rgb(8, 8, 8);
+  font-style: unset;
 }
