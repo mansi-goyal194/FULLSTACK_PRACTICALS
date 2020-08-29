@@ -8,16 +8,20 @@
     scroll-padding-top:15vh;
   }
   body {
-    background: rgb(234, 234, 234);
-    margin: 5px;
+    margin: 10px;
+    align-content: center;
+    color: white;
+    font-family: serif;
   }
   .container {
     width: 100%;
+    background-color: rgb(214, 212, 212);
+    margin: 0px auto;
+    padding: 15px;
   }
   
   .heading {
-    background-color: rgb(36, 35, 35);
-    color: white;
+    background-color: gray;
     width: 98vw;
     height: 10vh;
     position: sticky;
@@ -55,7 +59,8 @@
     padding: 0 20px;
     /* width:200px; */
     font-size: 30px;
-    color: white;
+    background-color: #fff;
+    color: black;
   }
   
   .show-btn,
@@ -110,26 +115,26 @@
   }
   .banner {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    color: cornflowerblue;
+    background-color: rgb(55, 202, 221);
     background-image: url(../images/practical8/bannerr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    margin-bottom: 10px;
-    margin-top: 2px;
     width: 98vw;
-    border-radius: 10px;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 80px;
+    color: rgb(103, 163, 108);
+    font-family: cursive ;
+    border-bottom: 1px solid white;
+    padding-left: 30px;
+    padding-top: 30px;
   }
   
-  .banner-content {
-    text-align: center;
-    width: 30vw;
-    font-size: 80px;
-    color: rgb(202, 190, 190);
-    font-variant: small-caps;
-    border-bottom: 1px solid white;
-  }
+
   .sec-1 {
     float: left;
     width: 98vw;
