@@ -337,7 +337,8 @@ body {
     width: 40%;
     height: 70vh;
     margin: 5%;
-    background-color: white;
+    background-color: black;
+    color: white;
     float: left;
     border: 1px solid black;
     border-radius: 10px;
@@ -569,7 +570,8 @@ body {
     margin-bottom: 2.5%;
 
     margin-top: 2.5%;
-    background-color: white;
+    background-color: black;
+    color: white;
     float: left;
     border: 1px solid black;
     border-radius: 10px;
@@ -799,7 +801,8 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 10%;
-    background-color: white;
+    background-color: black;
+    color: white;
     float: left;
     border: 1px solid black;
     border-radius: 10px;
