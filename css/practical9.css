@@ -117,8 +117,7 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  #content {
-  }
+ 
   #content::after {
     content: "";
     display: block;
@@ -316,8 +315,7 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  #content {
-  }
+  
   #content::after {
     content: "";
     display: block;
@@ -545,8 +543,7 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  #content {
-  }
+ 
   #content::after {
     content: "";
     display: block;
@@ -778,8 +775,7 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  #content {
-  }
+
   #content::after {
     content: "";
     display: block;
