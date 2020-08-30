@@ -138,19 +138,22 @@ body {
     height: 60vh;
     margin-left: 1.5%;
     margin-right: 1.5%;
-    background-color: white;
+    background-color: black;
     float: left;
     transition: 0.5s;
+    border-radius: 10px;
     border: 1px solid black;
+    color: white;
     transition: 0.5s;
     position: relative;
   }
   .box:hover {
-    background-color: tan;
+    background-color: rgb(114, 163, 91);
   }
   .box img {
     width: 100%;
     height: 20vh;
+    border-radius: 10px;
     border-bottom: 1px solid black;
   }
   .title {
@@ -185,10 +188,13 @@ body {
     text-align: center;
     transition: 0.3s;
     border: 1px solid black;
+    border-radius: 10px;
   }
   .button a:hover {
-    background-color: lightseagreen;
+    background-color: rgb(187, 75, 75);
     font-size: large;
+    color: black;
+    font-family: serif;
   }
   .members {
     padding-left: 1%;
@@ -211,7 +217,7 @@ body {
   }
 
   .footer {
-    background-color: rgb(211, 66, 211);
+    background-color: rgb(27, 94, 82);
     width: 100%;
     height: 120px;
     font-size: 20px;
@@ -221,6 +227,12 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid black;
+  }
+  .footer a{
+    color: black;
+  }
+  .footer a:hover{
+    color: orchid;
   }
 
   #left-sidebar {
@@ -328,16 +340,18 @@ body {
     background-color: white;
     float: left;
     border: 1px solid black;
+    border-radius: 10px;
     transition: 0.5s;
     position: relative;
   }
   .box:hover {
-    background-color: tan;
+    background-color: rgb(114,163, 91);
   }
   .box img {
     width: 100%;
     height: 28vh;
     border-bottom: 1px solid black;
+    border-radius: 10px;
   }
   .title {
     margin-top: 4px;
@@ -371,9 +385,10 @@ body {
     text-align: center;
     transition: 0.3s;
     border: 1px solid black;
+    border-radius: 10px;
   }
   .button a:hover {
-    background-color: lightseagreen;
+    background-color: rgb(187, 75,75);
     font-size: large;
   }
   .members {
@@ -399,7 +414,7 @@ body {
   }
 
   .footer {
-    background-color: rgb(211, 66, 211);
+    background-color: rgb(27,94,82);
     width: 100%;
     height: 120px;
     font-size: 20px;
@@ -409,6 +424,12 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid black;
+  }
+  .footera{
+    color: black;
+  }
+  .footer a:hover{
+    color: orchid;
   }
 
   #left-sidebar {
@@ -551,16 +572,18 @@ body {
     background-color: white;
     float: left;
     border: 1px solid black;
+    border-radius: 10px;
     transition: 0.5s;
     position: relative;
   }
   .box:hover {
-    background-color: tan;
+    background-color: rgb(114,163, 91);
   }
   .box img {
     width: 100%;
     height: 28vh;
     border-bottom: 1px solid black;
+    border-radius: 10px;
   }
   .title {
     margin-top: 4px;
@@ -594,9 +617,10 @@ body {
     text-align: center;
     transition: 0.3s;
     border: 1px solid black;
+    border-radius: 10px;
   }
   .button a:hover {
-    background-color: lightseagreen;
+    background-color: rgb(187, 75, 75);
     font-size: large;
   }
   .members {
@@ -622,7 +646,7 @@ body {
   }
 
   .footer {
-    background-color: rgb(211, 66, 211);
+    background-color: rgb(27,94,82);
     width: 100%;
     height: 120px;
     font-size: 20px;
@@ -632,6 +656,12 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid black;
+  }
+  .footer a{
+    color: black;
+  }
+  .footer a:hover{
+    color: orchid;
   }
 
   .about {
@@ -772,16 +802,18 @@ body {
     background-color: white;
     float: left;
     border: 1px solid black;
+    border-radius: 10px;
     transition: 0.5s;
     position: relative;
   }
   .box:hover {
-    background-color: tan;
+    background-color: rgb(114, 163, 91);
   }
   .box img {
     width: 100%;
     height: 28vh;
     border-bottom: 1px solid black;
+    border-radius: 10px;
   }
   .title {
     margin-top: 4px;
@@ -815,9 +847,10 @@ body {
     text-align: center;
     transition: 0.3s;
     border: 1px solid black;
+    border-radius: 10px;
   }
   .button a:hover {
-    background-color: lightseagreen;
+    background-color: rgb(187, 75,75);
     font-size: large;
   }
   .members {
@@ -843,7 +876,7 @@ body {
   }
 
   .footer {
-    background-color: rgb(211, 66, 211);
+    background-color: rgb(27, 94, 82);
     width: 100%;
     height: 120px;
     font-size: 20px;
@@ -853,6 +886,12 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid black;
+  }
+  .footer a{
+    color: black;
+  }
+  .footer a:hover{
+    color: orchid;
   }
 
   .about {
