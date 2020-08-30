@@ -3,169 +3,173 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../css/practical9.css" />
+    <script src="https://kit.fontawesome.com/fb65f5d132.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/practical9.css">
     <title>Practical-9</title>
   </head>
   <body>
-    <div class="container">
-      <div class="heading">
-        <h2><a href="#Home">Home</a></h2>
-        <input type="checkbox" id="check" />
-        <label for="check" class="show-btn">
-          <i class="fa fa-bars"></i>
-        </label>
-        <ul class="menu">
-          <li><a href="#About">About</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li>
-            <a href="#Technologies">Technologies</a>
-            <ul class="submenu1">
-              <li>
-                <a href="">Front-End</a>
-                <ul class="submenu2">
-                  <li><a href="../practicals/practical5/html.html">HTML</a></li>
-                  <li><a href="../practicals/practical5/css.html">CSS</a></li>
-                  <li><a href="../practicals/practical5/js.html">Javascript</a></li>
-                  <li>
-                    <a href="../practicals/practical5/boot.html">Bootstrap</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="">Back-End</a>
-                <ul class="submenu2">
-                  <li><a href="">Node.js</a></li>
-                  <li><a href="">PHP</a></li>
-                  <li><a href="">Flask</a></li>
-                  <li><a href="">Django</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="#Contact">Contact</a></li>
-          <label for="check" class="hide-btn">
-            <i class="fa fa-times"></i>
+    <div class="container1">
+      <div class="header">
+        <input type="checkbox" id="chk">
+          <label for="chk" class="show-button" >
+          <i class="fas fa-bars"></i>
+          </label>
+        <ul class="navbar">
+          
+          <li><a href="#">Home</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#about">About Us</a></li>
+          
+          <li><a href="#technologies">Technologies</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <input type="checkbox" id="chk">
+          <label for="chk" class="hide-button">
+            <i class="fas fa-times"></i>
           </label>
         </ul>
       </div>
-      <div class="banner" id="Home">
-        <div class="banner-content">Welcome</div>
-      </div>
-      <div class="content" id="About">
-        <h1>Our Team</h1>
-      </div>
-      <div class="sec-1">
-        <div class="sec-1-box">
-          <img src="../images/practical8/lady.png" alt="" />
-        </div>
-        <div class="sec-1-box">
-          <img src="../images/practical8/lady.png" alt="" />
-        </div>
-        <div class="sec-1-box">
-          <img src="../images/practical8/lady.png" alt="" />
-        </div>
-        <div class="sec-1-box">
-          <img src="../images/practical8/lady.png" alt="" />
-        </div>
-      </div>
-      <div class="content" id="Projects">
-        <h1>Projects</h1>
-      </div>
-      <div class="sec-2">
-        <div class="left">
-          <h1>Our Work</h1>
-          <p>
-            A full stack web developer is a person who can develop both client
-            and server software. In addition to mastering HTML and CSS, he/she
-            also knows how to: Program a browser (like using JavaScript, jQuery,
-            Angular, or Vue) Program a server (like using PHP, ASP, Python, or
-            Node)
-          </p>
-        </div>
-        <div class="right">
-          <div class="right-box-1"></div>
-          <div class="right-box-2"></div>
-          <div class="right-box-3"></div>
-        </div>
-      </div>
-      <div class="content" id="Technologies">
-        <h1>
-          Technologies
-        </h1>
-      </div>
-      <div class="sec-3-box">
-        <div class="box">
-          <div class="box-img">
-            <img src="../images/html-5.png" alt="" />
+      <div class="container">
+        <div class="banner" >
+          <div class="overlap">
+            PRACTICAL - 9
           </div>
-          <div class="title">
-            <h2>Introduction to html</h2>
+          <img src="../images/practical8/bannerr.jpg" alt="" />
+        </div>
+        <div class="section" id="team">Our Team</div>
+        <div class="members" >
+          <div id="circle">
+            <img src="../images/practical8/lady.png" alt="Member 1" />
           </div>
-          <div class="description">
-            HTML stands for Hyper Text Markup Language. It is used to design web
+          <div id="circle">
+            <img src="../images/practical8/lady.png" alt="Member 2" />
+          </div>
+          <div id="circle">
+            <img src="../images/practical8/lady.png" alt="Member 3" />
+          </div>
+          <div id="circle">
+            <img src="../images/practical8/lady.png" alt="Member 4" />
+          </div>
+        </div>
+        <div class="section" id="about">About Us</div>
+        <div class="about">
+          <div id="left-sidebar">
+            <h2>About Project</h2>
+            <p>
+              Our main motive is to learn fullstack development. We started learning full stack development by learning front end development first. Here we are performing many practicals and making prjoects to enhance our learning.This website is also a part of the leaarning phase. Till now we have completed 7 practicals and this is the 8th one.
+        
+            </p>
+          </div>
+          <div id="right-sidebar">
+            <div id="Article">
+              <div class="overlap1">
+                Practical-1
+              </div>
+              <img
+                src="../images/practical8/p1.jpg" width="100%"
+                style="";
+                alt="";
+              />
+            </div>
+            <div id="Article">
+              <div class="overlap1">
+                Practical-2
+              </div>
+              <img
+                src="../images/practical8/p2.jpeg" width="100%"
+                style="margin-top: 0px;"
+                alt=""
+              />
+            </div> <div id="Article" style="margin-bottom: 0px;">
+              <div class="overlap1">
+                Practical-3
+              </div>
+              <img
+                src="../images/practical8/p3.jpg" width="100%"
+                style="margin-left: 0px;"
+                alt=""
+              />
+            </div>
+            
+          </div>
+        </div>
+        <div class="section" id="technologies">Technologies Used</div>
+        <div id ="tech" >
+          <div class="box">
+            <img src="../images/html-5.png" alt="html intro" />
+            <div class="title">
+              <h3>Introduction to HTML</h3>
+            </div>
+            <div class="intro">
+              HTML stands for Hyper Text Markup Language. It is used to design web
                       pages using markup language. HTML is the combination of Hypertext and
                       Markup language. Hypertext defines the link between the web pages.
-          </div>
-          <div class="button">
-            <a href="./practical5/html.html" target="_blank">Read More</a>
-          </div>
-        </div>
-        <div class="box">
-            <div class="box-img">
-              <img src="../images/css3.png" alt="css intro" />
             </div>
+            <div class="button">
+              <a href="../practicals/practical5/html.html" target="_blank">Read More</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="../images/css3.png" alt="css intro" />
             <div class="title">
               <h3>Introduction to CSS</h3>
             </div>
-            <div class="description"> 
+            <div class="intro">
               Cascading Style Sheets, fondly referred to as CSS, is a simply
-              designed language intended to simplify the process of making web pages
-              presentable. CSS allows you to apply styles to web pages.</div>
-              <div class="button">
-                <a href="./practical5/css.html" target="_blank">Read More</a>
-              </div>
+                      designed language intended to simplify the process of making web pages
+                      presentable. CSS allows you to apply styles to web pages.
             </div>
-          
-            <div class="box">
-                <div class="box-img">
-                  <img src="../images/js.png" alt="javascript intro" />
-                </div>
-                <div class="title">
-                  <h3>Introduction to Javascript</h3>
-                </div>
-                <div class="description">
-                  JavaScript is lightweight, cross-platform and interpreted scripting
-                  language. It is well-known for the development of web pages.The most common host environment is the browser.
-                </div>
-                  <div class="button">
-                    <a href="./practical5/js.html" target="_blank">Read More</a>
-                  </div>
-                  </div>
-                  <div class="box">
-                    <div class="box-img">
-                      <img src="../images/bootstrap.png" alt="bootstrap intro" />
-                    </div>
-                    <div class="title">
-                      <h3>Introduction to Bootstrap</h3>
-                    </div>
-                    <div class="description">
-                      Bootstrap is a free and open-source tool collection for creating
+            <div class="button">
+              <a href="../practicals/practical5/css.html" target="_blank">Read More</a>
+            </div>
+          </div>
+          <div class="box"  >
+            <img src="../images/js.png" alt="js intro" />
+            <div class="title">
+              <h3>Introduction to JavaScript</h3>
+            </div>
+            <div class="intro">
+              JavaScript is lightweight, cross-platform and interpreted scripting
+                      language. It is well-known for the development of web pages.The most common host environment is the browser.</p>
+                      
+            </div>
+            <div class="button">
+              <a href="../practicals/practical5/js.html" target="_blank">Read More</a>
+            </div>
+          </div>
+          <div class="box" style="margin-bottom: 0px;">
+            <img src="../images/bootstrap.png" alt="bootstrap intro" />
+            <div class="title">
+              <h3>Introduction to bootstrap</h3>
+            </div>
+            <div class="intro">
+              Bootstrap is a free and open-source tool collection for creating
                       responsive websites and web applications. It is the most popular HTML,
                       CSS, and JavaScript framework for developing responsive, mobile-first
-                      web sites.</div>
-                      <div class="button">
-                        <a href="./practical5/boot.html" target="_blank">Read More</a>
-                      </div>
-                    </div>
-      </div>
-      <div class="sec-4" id="Contact">
-        MADE BY MANSI GOYAL :)
+                      web sites.
+            </div>
+            <div class="button">
+              <a href="../practicals/practical5/boot.html" target="_blank">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="section" id="contact">Contact</div>
+        <div class="footer">
+          <ul style="list-style: none;">
+            <li>
+              Website template for Practical-9.
+            </li>
+                
+            <li>
+                MADE BY MANSI GOYAL :)
+            </li>
+            <li>
+                To email : <a href="mailto: mansi.goyal_cs18@gla.ac.in">click here</a>
+            </li>
+            <li>
+                <a href="#"> GO TO TOP</a>
+            </li>
+        </div>
       </div>
     </div>
   </body>
