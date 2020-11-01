@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        
+      }
+      body {
+        background-color: rgb(103, 103, 129);
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      h1 {
+        font-size: 40px;
+        color: wheat;
+        margin-bottom: 30px;
+        font-size: 60px;
+      }
+      #container {
+        display: flex;
+        flex-direction: row;
+      }
+      #counter {
+        font-size: 40px;
+        color: wheat;
+        margin-top: 10px;
+        font-weight: bold;
+      }
+      button {
+        display: block;
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+        background-color: rgb(196, 159, 159);
+        outline: none;
+        margin: 0px 60px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>COUNTER</h1>
+    <div id="container">
+      <button id="dec" onclick="dec()">-</button>
+      <div id="counter">0</div>
+      <button id="inc" onclick="inc()">+</button>
+    </div>
+    <script>
+      var counter = parseInt(document.getElementById("counter").innerHTML);
+      var btn1 = document.getElementById("dec");
+      btn1.disabled = true;
+      function dec() {
+        counter = counter - 1;
+        document.getElementById("counter").innerHTML = counter;
+        if (counter == 0) {
+          btn1.disabled = true;
+        }
+      }
+      function inc() {
+        counter = counter + 1;
+        document.getElementById("counter").innerHTML = counter;
+        btn1.disabled = false;
+      }
+    </script>
+  </body>
+</html>
