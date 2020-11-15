@@ -35,13 +35,17 @@ function setGreeting() {
     if (h < 12) {
         document.body.style.backgroundImage = 'url("../images/morning.jpg")';
         greeting.innerHTML = "GOOD MORNING";
-    } else if (h < 18) {
+    } else if (h < 16) {
         document.body.style.backgroundImage = 'url("../images/afternoon.jpg")';
         greeting.innerHTML = "GOOD AFTERNOON";
+    }
+    else if (h < 20) {
+        document.body.style.backgroundImage = 'url("../images/eve.jpeg")';
+        greeting.innerHTML = "GOOD EVENING";
     } else {
         document.body.style.backgroundImage = 'url("../images/evening.jpg")';
         document.body.style.color = "white"
-        greeting.innerHTML = "GOOD EVENING";
+        greeting.innerHTML = "GOOD NIGHT";
     }
 
 }
