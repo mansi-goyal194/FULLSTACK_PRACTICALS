@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* color: black; */
+}
+
+body {
+    min-width: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#time {
+    font-size: 100px;
+    margin: 5px;
+    text-align: center;
+}
+
+h2,
+h1 {
+    margin: 10px
+}
+
+#myname {
+    opacity: 0.7;
+}
